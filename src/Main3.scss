@@ -1,0 +1,59 @@
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+
+  
+  .product-card {
+    width: 250px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .product-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .product-card h2 {
+    margin: 0.5rem 0;
+  }
+  
+  .price-strikethrough {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  .price {
+    color: #ff6347;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .discount {
+    font-size: 0.8rem;
+    color: #fff;
+    background-color: #ff6347;
+    padding: 0.2rem 0.5rem;
+    margin-left: 0.5rem;
+  }
+  
+  .add-to-bag {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .add-to-bag:hover {
+    background-color: rgba(237, 70, 28, 0.667);
+  }
+  
